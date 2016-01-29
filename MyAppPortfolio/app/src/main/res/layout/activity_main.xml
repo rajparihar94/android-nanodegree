@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout"
+    android:background="#ffdfeaf1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="My Nanodegree Apps!"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+
+        />
+    <Button
+        android:id="@+id/spotify_streamer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="spotify streamer"
+        android:textAllCaps="true"
+        android:background="#FF6F00"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/scores_app"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="scores app"
+        android:textAllCaps="true"
+        android:background="#FF6F00"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/libary_app"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="library app"
+        android:textAllCaps="true"
+        android:background="#FF6F00"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/built_it_bigger"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="built it bigger"
+        android:textAllCaps="true"
+        android:background="#FF6F00"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/bacon_reader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="bacon reader"
+        android:textAllCaps="true"
+        android:background="#FF6F00"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/capstone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="capstone: my own app"
+        android:textAllCaps="true"
+        android:layout_marginBottom="10dp"
+        android:background="#FF1744"
+        />
+</LinearLayout>
