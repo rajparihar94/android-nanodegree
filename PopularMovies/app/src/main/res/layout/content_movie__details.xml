@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:scrollbarAlwaysDrawHorizontalTrack="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rajpa.popularmovies.Movie_Details"
+    tools:showIn="@layout/activity_movie__details">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#353535"
+            android:id="@+id/poster" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textColor="#353535"
+            android:textStyle="bold"
+            android:text="Title : Deadpool"
+            android:textSize="27dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/poster"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overview : it is a very nice movie"
+            android:layout_below="@+id/title"
+            android:textSize="20dp"
+            android:textColor="#2f2f2f"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/overview"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release_date : 26-2-2016"
+            android:layout_below="@+id/overview"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:textColor="#2f2f2f"
+            android:layout_marginTop="10dp"
+            android:id="@+id/release"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratings"
+            android:text="Vote_avg : 7.666"
+            android:layout_below="@+id/release"
+            android:textSize="25dp"
+            android:textColor="#2f2f2f"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+    </RelativeLayout>
+
+
+</ScrollView>

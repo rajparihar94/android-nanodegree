@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sort_by_pop"
+        android:title="Sort By Popularrity"
+        android:orderInCategory="98"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_rate"
+        android:title="Sort By Ratings"
+        android:orderInCategory="99"
+        android:showAsAction="never" />
+
+
+</menu>
