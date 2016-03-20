@@ -115,13 +115,14 @@ public class MainActivityFragment extends Fragment {
         String movies_detail=null;
         @Override
         protected Movie[] doInBackground(String... params) {
+
             final String BASE_URL="http://api.themoviedb.org/3";
             final String DISCOVER="/discover";
             final String BY_MOVIE="/movie";
             final String SORT_BY="?sort_by="+params[0]+".desc";
             final String SORT_BY_POP="?sort_by=popularity.desc";
             final String SORT_BY_RATINGS="?sort_by=vote_average.desc";
-            final String API_KEY="YOUR_API_KEY";
+            final String API_KEY="&api_key=YOUR_API_KEY";
             String path=BASE_URL+DISCOVER+BY_MOVIE+SORT_BY+API_KEY;
 
             try{
