@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort_by_pop"
+        android:title="Sort By Popularity"
+        android:orderInCategory="98"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sort_by_rate"
+        android:title="Sort By Ratings"
+        android:orderInCategory="99"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fav"
+        android:title="Show Favourite"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>

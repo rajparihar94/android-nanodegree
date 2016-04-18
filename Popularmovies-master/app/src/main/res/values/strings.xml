@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Popular_Movie</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie__detail">Movie_Detail</string>
+    <string name="title_activity_detail__movie">Detail_Movie</string>
+    <string name="title_activity_temp">temp</string>
+</resources>
