@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#faa519"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pratik.bts.Home"
+    tools:showIn="@layout/activity_home">
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:background="@android:color/darker_gray"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/track_location"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Track"
+                android:layout_marginLeft="25dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:background="@color/btn"
+                />
+
+            <Button
+                android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Details"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:background="@color/btn"
+                />
+
+            <Button
+                android:id="@+id/feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Feedback"
+                android:layout_gravity="end"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:background="@color/btn"
+                />
+        </LinearLayout>
+        <RelativeLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:foregroundGravity="center_horizontal"
+                android:autoStart="true"
+                android:flipInterval="2000" >
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="320dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/clg" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="320dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/track" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="320dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/clgbus" />
+            </ViewFlipper>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/buttonSignUP"
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:background="@color/btn"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="OR"
+            android:textColor="#0000A0"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/or"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/buttonSignIN"
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Sign In"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:background="@color/btn"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

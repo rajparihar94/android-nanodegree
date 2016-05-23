@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Details_Store"
+    tools:showIn="@layout/activity_details">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#faa519"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Detail"
+        android:textColor="#2582C5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ImageView android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/driver_detail_bus_no"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Bus No."
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/driver_detail_driver_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/driver_detail_driver_no"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Driver No."
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"
+            />
+        <Button
+            android:id="@+id/btn_driver_detail_store"
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:background="@color/btn"
+            />
+        <Button
+            android:id="@+id/btn_driver_detail_show"
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Show Driver Details"
+            android:textColor="#fff"
+            android:background="@color/btn"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</ScrollView>
