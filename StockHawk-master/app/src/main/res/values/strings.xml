@@ -1,0 +1,49 @@
+<resources>
+  <string name="app_name">Stock Hawk</string>
+
+  <string name="action_example">Example action</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="action_change_units">Change Units</string>
+  <string name="symbol_search">Symbol Search</string>
+  <string name="content_test">Search for a Stock Symbol</string>
+  <string name="input_hint">FB</string>
+  <string name="input_prefill"></string>
+  <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+
+  <string name="valid_toast">" added!"</string>
+  <string name="invalid_toast">" is not a valid stock!"</string>
+
+  <string name="stock_info_not_available">The update is not available.</string>
+  <string name="network_not_available">The network is not available now</string>
+
+  <string name="pref_stock_status_key">stock-status</string>
+
+
+  <string name="key_tag" translatable="false">tag</string>
+  <string name="key_symbol" translatable="false">symbol</string>
+  <string name="tag_periodic" translatable="false">periodic</string>
+
+  <!--Values-->
+  <string name="value_init" translatable="false">init</string>
+  <string name="value_add" translatable="false">add</string>
+  <string name="title_activity_detail">DetailActivity</string>
+  <string name="cd_add_button">Add Stock Button</string>
+
+
+
+  <string name="one_week">1 week</string>
+  <string name="one_month">1 month</string>
+  <string name="three_month">3 months</string>
+  <string name="six_month">6 months</string>
+  <string name="one_year">1 year</string>
+
+  <string name="spinner_title">Stock history range</string>
+
+  <string name="quote_history_text">Quote history</string>
+  <string name="quote_history_error">No data available.</string>
+
+  <string name="title_portfolio_widget">Porfolio Widget</string>
+  <string name="widget_title">Market Today</string>
+
+</resources>
