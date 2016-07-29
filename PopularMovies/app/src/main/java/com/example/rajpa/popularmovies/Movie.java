@@ -7,6 +7,7 @@ public class Movie {
 
     String title,overview,release_date,image_url;
     final String BASE_URL ="http://image.tmdb.org/t/p/w342/";
+
     double ratings;
     String final_url;
 

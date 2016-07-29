@@ -1,4 +1,4 @@
-package com.example.rajpa.popularmovies;
+package com.example.rajpa.bollywoodmovies;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -14,7 +14,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
 
 import org.json.JSONArray;
@@ -32,10 +31,12 @@ import java.util.ArrayList;
  */
 public class MainActivityFragment extends Fragment {
 
-    String LOG_TAG = "Popular Movies";
+    String LOG_TAG = "Bollywood Movies";
     MovieAdapter madapter;
     ArrayList<Movie> movies;
-    String sort_type = "popularity";
+
+
+
     public MainActivityFragment() {
     }
 
@@ -48,22 +49,22 @@ public class MainActivityFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        updateMovie(sort_type);
+        //updateMovie(sort_type);
 
     }
 
-    public void updateMovie(String sort_type){
+    public void updateMovie(){
 
         PopulateMovie populateMovie = new PopulateMovie();
-        populateMovie.execute(sort_type);
+        populateMovie.execute();
     }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.movie_fragment,menu);
+        //inflater.inflate(R.menu.movie_fragment,menu);
     }
 
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId()==R.id.sort_by_pop){
             sort_type="popularity";
@@ -77,7 +78,7 @@ public class MainActivityFragment extends Fragment {
 
         return super.onOptionsItemSelected(item);
     }
-
+*/
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -87,7 +88,7 @@ public class MainActivityFragment extends Fragment {
         GridView gridView = (GridView) rootView.findViewById(R.id.grids);
         gridView.setAdapter(madapter);
 
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /*gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
@@ -101,12 +102,14 @@ public class MainActivityFragment extends Fragment {
                 startActivity(i);
             }
         });
-
-        updateMovie(sort_type);
+*/
+        updateMovie();
         return rootView;
 
 
     }
+
+
 
     public class PopulateMovie extends AsyncTask<String,Void,Movie[]> {
         //http://api.themoviedb.org/3/discover/movie?sort_by=vote_count.desc&api_key=
@@ -117,7 +120,7 @@ public class MainActivityFragment extends Fragment {
         @Override
         protected Movie[] doInBackground(String... params) {
 
-            final String BASE_URL="http://api.themoviedb.org/3";
+            /*final String BASE_URL="http://api.themoviedb.org/3";
             final String DISCOVER="/discover";
             final String BY_MOVIE="/movie";
             final String SORT_BY="?sort_by="+params[0]+".desc";
@@ -125,8 +128,9 @@ public class MainActivityFragment extends Fragment {
             final String SORT_BY_RATINGS="?sort_by=vote_average.desc";
             final String API_KEY="&api_key=YOUR_API_KEY";
             String path=BASE_URL+DISCOVER+BY_MOVIE+SORT_BY+API_KEY;
+*/
 
-
+            String path = "https://api.cinemalytics.com/v1/movie/upcoming?auth_token=79A468B4E0620A0B41D2EAF03BCB145C";
 
             try{
                 URL url=new URL(path);
@@ -168,7 +172,7 @@ public class MainActivityFragment extends Fragment {
             final String RESULTS = "results";
             final String TITLE = "original_title";
             final String OVER_VIEW = "overview";
-            final String POSTER_PATH = "poster_path";
+            final String POSTER_PATH = "PosterPath";
             final String RELEASE_DATE = "release_date";
             final String RATINGS = "vote_average";
             Movie[] movies=null;
@@ -179,11 +183,11 @@ public class MainActivityFragment extends Fragment {
                 for(int i=0;i<movieArray.length();i++){
                     JSONObject movieObject=movieArray.getJSONObject(i);
                     Movie temp_movie=new Movie();
-                    temp_movie.setTitle(movieObject.getString(TITLE));
+                    //temp_movie.setTitle(movieObject.getString(TITLE));
                     temp_movie.setImage_base_url(movieObject.getString(POSTER_PATH));
-                    temp_movie.setOverview(movieObject.getString(OVER_VIEW));
-                    temp_movie.setRatings(movieObject.getDouble(RATINGS));
-                    temp_movie.setRelease_date(movieObject.getString(RELEASE_DATE));
+                    //temp_movie.setOverview(movieObject.getString(OVER_VIEW));
+                    //temp_movie.setRatings(movieObject.getDouble(RATINGS));
+                    //temp_movie.setRelease_date(movieObject.getString(RELEASE_DATE));
                     movies[i]=temp_movie;
                 }
             }catch (Exception e){
@@ -209,4 +213,6 @@ public class MainActivityFragment extends Fragment {
         }
 
     }
+
+
 }

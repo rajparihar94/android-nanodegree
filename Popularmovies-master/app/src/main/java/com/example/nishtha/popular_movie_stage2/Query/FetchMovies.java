@@ -41,7 +41,6 @@ public class FetchMovies extends AsyncTask<String,Void,Void> {
                     appendQueryParameter(API_KEY,"3604ff88128ffea1029f13f41ac56dfa").build();
             URL url = new URL(uri.toString());
             Log.v("hello", "THE URL IS: " + url);
-
         // Create the request to OpenWeatherMap, and open the connection
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setRequestMethod("GET");
