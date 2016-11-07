@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_9a73db1c4e6b3691bdd8e409a3644622f833a4ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c4caf832116bca1f2e140bf1fb600e2edd190837">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-22.2.1_ac3ad032b17ecd59a751e6637e563c10c871e11b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.0_e4351d1ea8a1a562f9f1f58a2f7da011db292b16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-22.2.1_903ada8de1c429fca2c5ebc8c9f597f9d4fcb1a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_e40ef532275d0f811e231ebbd6279385a9df38e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_ded707ccaef3c7e566b9ac3eba076b4ed39e6ea4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6fc4c7067459e8d69e1bbcb3a8973cdd84d5d87b">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_54011e295680c452088e91d7688341f95722a152\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6a6195868635213100d8e1448269814486078f80">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_125cc4c3d0448e42f2319d1ce101b09bd18a8fdf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-22.2.1_d4c5c55fe22d3922782c9c614715225fa0351ab7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_806b8b167db7a864d31e20a88ce75f66c7c3bfd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\22.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-22.0.0_0f5958e041e75fe9ff5af4fa2f7e8b85c0549af2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_6f20787977b03b988554ead5c7477d44cc25dc79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5c1abea52f62e9ec556f10bd2112cfd79de7717d">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d6e16cf54183824fbf17dbbedb48f4c18a130ad8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_5e9a9984719388a9af9eb499f864883ec5042f76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\rajpa\Downloads\Compressed\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_e5263278ffd32fc3e259769ea4acc4d8eccae03b\classes.dex" />
+    </item>
+
+</items>
